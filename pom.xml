@@ -39,21 +39,21 @@
                 <version>0.8.5</version>
                 <executions>
                     <execution>
-                        <id>prepare-agent-111111</id>
+                        <id>prepare-agent</id>
                         <phase>initialize</phase>
                         <goals>
                             <goal>prepare-agent</goal>
                         </goals>
                     </execution>
                     <execution>
-                        <id>report-1111</id>
+                        <id>11111-report</id>
                         <phase>verify</phase>
                         <goals>
                             <goal>report</goal>
                         </goals>
                     </execution>
                     <execution>
-                        <id>check-11111</id>
+                        <id>check</id>
                         <goals>
                             <goal>check</goal>
                         </goals>
